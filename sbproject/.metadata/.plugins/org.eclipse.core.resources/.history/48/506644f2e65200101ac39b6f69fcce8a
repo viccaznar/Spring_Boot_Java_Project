@@ -1,0 +1,5 @@
+package io.aznar.sbproject.config;
+
+public class TestConfig {
+
+}

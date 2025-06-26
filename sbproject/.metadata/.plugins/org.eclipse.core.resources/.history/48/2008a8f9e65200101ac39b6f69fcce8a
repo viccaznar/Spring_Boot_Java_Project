@@ -1,0 +1,13 @@
+package io.aznar.sbproject.config;
+
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Profile;
+
+import io.aznar.sbproject.repositories.UserRepository;
+
+@Configuration
+@Profile("test")
+public class TestConfig {
+
+	private UserRepository userRepository;
+}
