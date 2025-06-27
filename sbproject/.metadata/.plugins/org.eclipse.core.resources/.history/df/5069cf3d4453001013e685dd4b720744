@@ -1,0 +1,5 @@
+package io.aznar.sbproject.entities;
+
+public class Order {
+
+}
